@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rahul Panwar | Portfolio</title>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    background: #f6ffc2;
+    color: #111827;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 260px;
+    height: 100vh;
+    background: #ff9215;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    padding: 30px 20px;
+}
+
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.sidebar h2 {
+    margin-bottom: 5px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.nav {
+    margin-top: 30px;
+}
+
+.nav a {
+    display: block;
+    margin: 10px 0;
+    color: #00470f;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #3b82f6;
+}
+
+/* MAIN CONTENT */
+.main {
+    margin-left: 260px;
+    padding: 40px;
+    width: 100%;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.section p {
+    line-height: 1.6;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #e4a445;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.tags span {
+    display: inline-block;
+    background: #e5e7eb;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #3b82f6;
+    font-weight: 500;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #6b7280;
+}
+</style>
+</head>
+
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+    <img src="WhatsApp Image 2026-04-23 at 11.04.07 PM.jpeg">
+    <h2>Rahul Panwar</h2>
+    <p>B.Tech Student</p>
+
+    <div class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Project</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
+    </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+<div id="about" class="section">
+<h1>About</h1>
+<p>I am a first-year B.Tech student with a strong background in leadership and a growing focus on technology. My experience in NCC as a Company Sergeant Major and House Captain has shaped my discipline and responsibility. I am currently building technical skills and applying them through practical work.</p>
+</div>
+
+<div id="skills" class="section">
+<h1>Skills</h1>
+<div class="tags">
+<span>Python</span>
+<span>C</span>
+<span>HTML</span>
+<span>DBMS</span>
+<span>DSA (Learning)</span>
+</div>
+</div>
+
+<div id="project" class="section">
+<h1>Project</h1>
+<div class="card">
+<b>Advanced Matrix Headlight System</b>
+<p>Developing a budget-friendly adaptive lighting system focused on improving road visibility and safety.</p>
+</div>
+</div>
+
+<div id="leadership" class="section">
+<h1>Leadership</h1>
+<div class="cards">
+<div class="card">House Captain</div>
+<div class="card">NCC - Company Sergeant Major</div>
+<div class="card">Best Pilot (NCC)</div>
+<div class="card">Escorted ADG of India</div>
+</div>
+</div>
+
+<div id="contact" class="section">
+<h1>Contact</h1>
+<p>Email: rahulhaiop@gmail.com</p>
+<p>Phone: 7839461987</p>
+<div class="links">
+<a href="https://www.linkedin.com/in/rahul-panwar-71bb1239b/">LinkedIn</a>
+<a href="https://github.com/Rahul-cmd22">GitHub</a>
+<a href="https://leetcode.com/u/CKM957QLWc/">LeetCode</a>
+</div>
+</div>
+
+<footer>
+<p>Rahul Panwar</p>
+</footer>
+
+</div>
+
+</body>
+</html>
